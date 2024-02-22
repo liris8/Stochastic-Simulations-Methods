@@ -2,7 +2,7 @@
 
 module Monte_Carlo_Methods
 
-export hit_and_miss_multi, uniform_sampling_multi
+export hit_and_miss_multi, uniform_sampling_multi, importance_sampling, Correlations, calculate_errors
 
 """
 Perform Hit & Miss integration for multivariable functions.
